@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ti-faction-picker-webpage/static/css/main.5f361e03.chunk.css",
+    "main.js": "/ti-faction-picker-webpage/static/js/main.96d55832.chunk.js",
+    "main.js.map": "/ti-faction-picker-webpage/static/js/main.96d55832.chunk.js.map",
+    "runtime-main.js": "/ti-faction-picker-webpage/static/js/runtime-main.176485ea.js",
+    "runtime-main.js.map": "/ti-faction-picker-webpage/static/js/runtime-main.176485ea.js.map",
+    "static/js/2.90997892.chunk.js": "/ti-faction-picker-webpage/static/js/2.90997892.chunk.js",
+    "static/js/2.90997892.chunk.js.map": "/ti-faction-picker-webpage/static/js/2.90997892.chunk.js.map",
+    "index.html": "/ti-faction-picker-webpage/index.html",
+    "precache-manifest.f04d98bf3ba5aa65dce31aa0aea859df.js": "/ti-faction-picker-webpage/precache-manifest.f04d98bf3ba5aa65dce31aa0aea859df.js",
+    "service-worker.js": "/ti-faction-picker-webpage/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/ti-faction-picker-webpage/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.90997892.chunk.js.LICENSE.txt": "/ti-faction-picker-webpage/static/js/2.90997892.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.176485ea.js",
+    "static/js/2.90997892.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.96d55832.chunk.js"
+  ]
+}
