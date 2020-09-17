@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6b24dd0bc35a317033f6f4188bf4845c",
+    "revision": "5cd7646f903d688edc7abb18f2dd9eca",
     "url": "/ti-faction-picker-webpage/index.html"
   },
   {
-    "revision": "9542faa59ceac082a2ba",
+    "revision": "df12208c5b134431c7a0",
     "url": "/ti-faction-picker-webpage/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ti-faction-picker-webpage/static/js/2.b872dcf9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9542faa59ceac082a2ba",
-    "url": "/ti-faction-picker-webpage/static/js/main.c82ac9ea.chunk.js"
+    "revision": "df12208c5b134431c7a0",
+    "url": "/ti-faction-picker-webpage/static/js/main.48f894d2.chunk.js"
   },
   {
     "revision": "50f0bff5390392945908",
