@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ti-faction-picker-webpage/precache-manifest.f04d98bf3ba5aa65dce31aa0aea859df.js"
+  "/ti-faction-picker-webpage/precache-manifest.344e9b71db785276bca0b56287430491.js"
 );
 
 self.addEventListener('message', (event) => {
