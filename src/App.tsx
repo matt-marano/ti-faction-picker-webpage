@@ -1,28 +1,28 @@
 import React, { useState } from "react";
 import "./App.css";
 
-function pickFactionRandomly(): string {
-  const factions = [
-    "Arborec",
-    "Barony of Letnev",
-    "Clan of Saar",
-    "Embers of Muaat",
-    "Emirates of Hacan",
-    "Federation of Sol",
-    "Ghosts of Creuss",
-    "L1Z1X Mindnet",
-    "Mentak Coalition",
-    "Naalu Collective",
-    "Nekro Virus",
-    "Sardakk N'orr",
-    "Universities of Jol-Nar",
-    "Winnu",
-    "Xxcha Kingdom",
-    "Yin Brotherhood",
-    "Yssaril Tribes",
-  ];
+const FACTIONS = [
+  "Arborec",
+  "Barony of Letnev",
+  "Clan of Saar",
+  "Embers of Muaat",
+  "Emirates of Hacan",
+  "Federation of Sol",
+  "Ghosts of Creuss",
+  "L1Z1X Mindnet",
+  "Mentak Coalition",
+  "Naalu Collective",
+  "Nekro Virus",
+  "Sardakk N'orr",
+  "Universities of Jol-Nar",
+  "Winnu",
+  "Xxcha Kingdom",
+  "Yin Brotherhood",
+  "Yssaril Tribes",
+];
 
-  const factionPicked = factions[Math.floor(Math.random() * factions.length)];
+function pickFactionRandomly(): string {
+  const factionPicked = FACTIONS[Math.floor(Math.random() * FACTIONS.length)];
   console.log(factionPicked);
 
   return factionPicked;
@@ -33,11 +33,21 @@ function Picker() {
 
   return (
     <div>
-      <p>Click to pick a faction!</p>
-      <button onClick={() => setFactionPicked(pickFactionRandomly())}>
-        PICK A FACTION
-      </button>
-      <h4>{factionPicked}</h4>
+      <div>
+        <p>Click the button below to pick a faction!</p>
+        <button onClick={() => setFactionPicked(pickFactionRandomly())}>
+          PICK A FACTION
+        </button>
+        <h2>{factionPicked}</h2>
+      </div>
+      <div>
+        <hr></hr>
+        <h2>All possible factions:</h2>
+        {FACTIONS.map((faction) => (
+          <p>{faction}</p>
+        ))}
+      </div>
+      <hr></hr>
     </div>
   );
 }
