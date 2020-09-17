@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 
-const FACTIONS = [
+const ALL_FACTIONS = [
   "Arborec",
   "Barony of Letnev",
   "Clan of Saar",
@@ -21,8 +21,16 @@ const FACTIONS = [
   "Yssaril Tribes",
 ];
 
-function pickFactionRandomly(): string {
-  const factionPicked = FACTIONS[Math.floor(Math.random() * FACTIONS.length)];
+function pickFactionRandomly(factionsToRemove?: Array<string>): string {
+  let factionsToPickFrom = ALL_FACTIONS;
+  if (factionsToRemove) {
+    factionsToPickFrom = ALL_FACTIONS.filter((faction) =>
+      factionsToRemove?.find((element) => element === faction)
+    );
+  }
+
+  const factionPicked =
+    factionsToPickFrom[Math.floor(Math.random() * factionsToPickFrom.length)];
   console.log(factionPicked);
 
   return factionPicked;
@@ -43,7 +51,7 @@ function Picker() {
       <div>
         <hr></hr>
         <h2>All possible factions:</h2>
-        {FACTIONS.map((faction) => (
+        {ALL_FACTIONS.map((faction) => (
           <p>{faction}</p>
         ))}
       </div>
