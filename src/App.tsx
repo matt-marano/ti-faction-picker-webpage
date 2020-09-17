@@ -22,7 +22,10 @@ function pickFactionRandomly(): string {
     "Yssaril Tribes",
   ];
 
-  return factions[Math.floor(Math.random() * factions.length)];
+  const factionPicked = factions[Math.floor(Math.random() * factions.length)];
+  console.log(factionPicked);
+
+  return factionPicked;
 }
 
 function Picker() {
@@ -34,7 +37,7 @@ function Picker() {
       <button onClick={() => setFactionPicked(pickFactionRandomly())}>
         PICK A FACTION
       </button>
-      <h3>{factionPicked}</h3>
+      <h4>{factionPicked}</h4>
     </div>
   );
 }
@@ -45,10 +48,6 @@ function App() {
       <header className="App-header">
         <div>
           <h1>Faction Picker</h1>
-          <h3>
-            Work in Progress. Once completed, will provide an interface to pick
-            factions for the board game Twilight Imperium 4th Edition.
-          </h3>
           <Picker></Picker>
         </div>
       </header>
