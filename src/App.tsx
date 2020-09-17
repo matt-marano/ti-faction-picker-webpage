@@ -51,8 +51,8 @@ function Picker() {
       <div>
         <hr></hr>
         <h2>All possible factions:</h2>
-        {ALL_FACTIONS.map((faction) => (
-          <p>{faction}</p>
+        {ALL_FACTIONS.map((faction, index) => (
+          <p key={index}>{faction}</p>
         ))}
       </div>
       <hr></hr>
