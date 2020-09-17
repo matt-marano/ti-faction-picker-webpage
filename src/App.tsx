@@ -34,6 +34,7 @@ function Picker() {
       <button onClick={() => setFactionPicked(pickFactionRandomly())}>
         PICK A FACTION
       </button>
+      <h3>{factionPicked}</h3>
     </div>
   );
 }
