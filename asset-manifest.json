@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ti-faction-picker-webpage/static/css/main.5f361e03.chunk.css",
-    "main.js": "/ti-faction-picker-webpage/static/js/main.0853a695.chunk.js",
-    "main.js.map": "/ti-faction-picker-webpage/static/js/main.0853a695.chunk.js.map",
+    "main.js": "/ti-faction-picker-webpage/static/js/main.da16aa3a.chunk.js",
+    "main.js.map": "/ti-faction-picker-webpage/static/js/main.da16aa3a.chunk.js.map",
     "runtime-main.js": "/ti-faction-picker-webpage/static/js/runtime-main.176485ea.js",
     "runtime-main.js.map": "/ti-faction-picker-webpage/static/js/runtime-main.176485ea.js.map",
     "static/js/2.b872dcf9.chunk.js": "/ti-faction-picker-webpage/static/js/2.b872dcf9.chunk.js",
     "static/js/2.b872dcf9.chunk.js.map": "/ti-faction-picker-webpage/static/js/2.b872dcf9.chunk.js.map",
     "index.html": "/ti-faction-picker-webpage/index.html",
-    "precache-manifest.28456a6f3de121192b96a9f944309cc6.js": "/ti-faction-picker-webpage/precache-manifest.28456a6f3de121192b96a9f944309cc6.js",
+    "precache-manifest.dfe07883686db166fe1ca099f029999d.js": "/ti-faction-picker-webpage/precache-manifest.dfe07883686db166fe1ca099f029999d.js",
     "service-worker.js": "/ti-faction-picker-webpage/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/ti-faction-picker-webpage/static/css/main.5f361e03.chunk.css.map",
     "static/js/2.b872dcf9.chunk.js.LICENSE.txt": "/ti-faction-picker-webpage/static/js/2.b872dcf9.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.176485ea.js",
     "static/js/2.b872dcf9.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.0853a695.chunk.js"
+    "static/js/main.da16aa3a.chunk.js"
   ]
 }
